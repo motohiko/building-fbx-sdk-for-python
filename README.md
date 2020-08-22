@@ -11,8 +11,8 @@ FBX Python SDK のビルド方法
 * Microsoft Visual Studio 2019 Community
 ## 注意事項（重要）
 * FBX Python Bindings の パスに半角スペースを含めない
-    * パスに空白があるとビルドに失敗するので空白を除去するか、インストールしたフォルダを別の場所にコピーする
-    * FBX Python Bindings というフォルダ名がＮＧ
+    * パスに半角スペースがあるとビルドに失敗するのでインストール時にパスを変更するか、インストールしたフォルダを別の場所にコピーしてリネームする
+    * FBX Python Bindings というフォルダ名がそもそもＮＧなので注意
 * sip-4.19.3 を使うこと
     * FBX Python Bindings の readme.txt にこのバージョンで作成したと書いてある
     * これより新しいバージョンを使用すると以下のエラーが出る
@@ -21,16 +21,15 @@ FBX Python SDK のビルド方法
         * privateの代入演算子オーバーロード
 ## ビルド手順
 1. sip-4.19.3 を解凍 (https://www.riverbankcomputing.com/hg/sip から入手)  
-configure.py を実行  
+sip-4.19.3\configure.py を実行  
 環境変数 SIP_ROOT にパスを登録  
 2. FBX SDK 2020.1.1 をインストール  
 環境変数 FBXSDK_ROOT にパスを登録  
 3. FBX Python Bindings 2020.1.1 をインストール  
 後述の修正を当てる  
-2020.1.1\PythonBindings.pyを実行してビルド  
-2020.1.1\build\Distrib\site-packages\fbx\* を site-packages へコピー
+FBX Python Bindings\2020.1.1\PythonBindings.pyを実行してビルド  
+FBX Python Bindings\2020.1.1\build\Distrib\site-packages\fbx\* を site-packages へコピー
 ## 修正箇所
-
 * 'AMD64' の判定を追加  
 FBX Python Bindings\2020.1.1\configure.py (32)
     ```Python:configure.py
@@ -68,7 +67,7 @@ FBX Python Bindings\2020.1.1\PythonBindings.py(202)
         return result
     ```
 ## できなかったこと
-* パスに空白文字がある状態でのビルド
+* パスに半角スペースがある状態でのビルド
 * PIP インストール対応（公式が手動コピーなので仕方ないかも）
 ## 参考
 * SIP  

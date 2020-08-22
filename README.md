@@ -1,5 +1,7 @@
-# FBX-Python-Bindings
-FBX Python Bindings ビルド手順
+# Building the FBX SDK for Python
+FBX Python SDK のビルド方法
+## Python バージョン
+* 3.8.3
 ## FBX バージョン
 * 2020.1.1
 ## OS/CPU

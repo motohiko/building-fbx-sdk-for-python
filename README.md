@@ -41,7 +41,6 @@ FBX Python Bindings\2020.1.1\PythonBindings.pyを実行してビルド
 ```
 python PythonBindings.py Python3_x64 buildsip
 ```
-
 FBX Python Bindings\2020.1.1\build\Distrib\site-packages\fbx\* を site-packages へコピー
 
 ## FBX Python Bindings 2020.1.1 修正箇所

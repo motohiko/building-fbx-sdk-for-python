@@ -57,7 +57,7 @@ FBX Python Bindings\2020.1.1\PythonBindings.py(22)
     ```Python:PythonBindings.py
     vsCompiler = "vs2017"
     ```
-* Visual Studio のパスを修正  
+* vcvars32.bat (Visual Studio) へのパスを修正  
 FBX Python Bindings\2020.1.1\PythonBindings.py(202)
     ```Python:PythonBindings.py
     def vcvars(platform_tag):

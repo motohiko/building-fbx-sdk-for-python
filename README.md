@@ -39,7 +39,7 @@ FBX Python Bindings\2020.1.1\PythonBindings.pyを実行してビルド
 FBX Python Bindings\2020.1.1\build\Distrib\site-packages\fbx\* を site-packages へコピー
 
 ## FBX Python Bindings 2020.1.1 修正箇所
-* 'AMD64' の判定を追加  
+* CPUの判定を修正  
 FBX Python Bindings\2020.1.1\configure.py (32)
     ```Python:configure.py
         if platform.machine() == 'x86_64':

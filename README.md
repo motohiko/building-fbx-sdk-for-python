@@ -16,7 +16,7 @@ FBX Python SDK は Python 3.3 用が提供されており、それ以外の Pyth
 * Microsoft Visual Studio 2019 Community
 
 ## 注意事項（重要）
-* FBX Python Bindings の パスに半角スペースを含めない
+* FBX Python Bindings の インストール先のパスに半角スペースを含めない
     * パスに半角スペースがあるとビルドに失敗するのでインストール時にパスを変更するか、インストールしたフォルダを別の場所にコピーしてリネームする
     * FBX Python Bindings というフォルダ名がそもそもＮＧなので注意
 * 対応する sip を使うこと

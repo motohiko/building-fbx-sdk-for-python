@@ -19,6 +19,7 @@ FBX Python SDK は Python 3.3 用が提供されており、それ以外の Pyth
 * FBX Python Bindings の インストール先のパスに半角スペースを含めない
     * パスに半角スペースがあるとビルドに失敗するのでインストール時にパスを変更するか、インストールしたフォルダを別の場所にコピーしてリネームする
     * FBX Python Bindings というフォルダ名がそもそもＮＧなので注意
+    * FBX SDK は問題ないみたい
 * 対応する sip を使うこと
     * FBX Python Bindings の readme.txt に使用したバージョンが書いてある
     * 2020.1.1 は sip-4.19.3

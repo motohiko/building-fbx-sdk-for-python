@@ -38,6 +38,9 @@ sip-4.19.3\configure.py を実行
 3. FBX Python Bindings 2020.1.1 をインストール  
 後述の修正を当てる  
 FBX Python Bindings\2020.1.1\PythonBindings.pyを実行してビルド  
+```
+python PythonBindings.py Python3_x64 buildsip
+```
 FBX Python Bindings\2020.1.1\build\Distrib\site-packages\fbx\* を site-packages へコピー
 
 ## FBX Python Bindings 2020.1.1 修正箇所

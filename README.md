@@ -1,5 +1,5 @@
 # Building the FBX SDK for Python
-FBX Python SDK は Python3.3 しか提供されておらず、それ以外のバージョンで使用するには FBX Python Bindings をビルドしがありません。
+FBX Python SDK は Python 3.3 しか提供されておらず、それ以外のバージョンで使用するには FBX Python Bindings をビルドしかありません。
 そのままではビルドが出来なかったので修正箇所や手順を記しておきます。
 
 ## Python バージョン

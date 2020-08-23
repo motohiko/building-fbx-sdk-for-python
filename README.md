@@ -38,7 +38,7 @@ sip-4.19.3\configure.py を実行
 FBX Python Bindings\2020.1.1\PythonBindings.pyを実行してビルド  
 FBX Python Bindings\2020.1.1\build\Distrib\site-packages\fbx\* を site-packages へコピー
 
-## 修正箇所
+## FBX Python Bindings 2020.1.1 修正箇所
 * 'AMD64' の判定を追加  
 FBX Python Bindings\2020.1.1\configure.py (32)
     ```Python:configure.py

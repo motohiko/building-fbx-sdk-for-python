@@ -73,7 +73,10 @@ FBX Python Bindings\2020.1.1\PythonBindings.py(202)
     ↓
     ```Python:PythonBindings.py
     def vcvars(platform_tag):
-        result = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/Build/vcvars64.bat'
+        if platform_tag == 'FBX_X64':
+            result = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/Build/vcvars64.bat'
+        else:
+            result = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/Build/vcvars32.bat'
         return result
     ```
 

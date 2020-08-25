@@ -37,7 +37,7 @@ sip-4.19.3\configure.py を実行
 環境変数 FBXSDK_ROOT にパスを登録  
 3. FBX Python Bindings 2020.1.1 をインストール  
 後述の修正を当てる  
-FBX Python Bindings\2020.1.1\PythonBindings.pyを実行してビルド  
+FBX Python Bindings\2020.1.1\PythonBindings.pyを実行(引数は Python3_x64 buildsip)してビルド  
 ```
 python PythonBindings.py Python3_x64 buildsip
 ```

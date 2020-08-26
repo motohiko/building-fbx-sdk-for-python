@@ -40,7 +40,7 @@ sip-4.19.3\configure.py を実行
 FBX Python Bindings\2020.1.1\PythonBindings.pyを実行(引数は Python3_x64 buildsip)してビルド  
 ```
 set FBXSDK_ROOT=C:\Program Files\Autodesk\FBX\FBX SDK\2020.1.1
-set SIP_ROOT= C:\sip-4.19.3
+set SIP_ROOT=C:\sip-4.19.3
 python PythonBindings.py Python3_x64 buildsip
 ```
 FBX Python Bindings\2020.1.1\build\Distrib\site-packages\fbx\* を site-packages へコピー
